@@ -24,3 +24,9 @@ header {
   border-radius: 10px;
   padding: 7px;
 }
+
+.theme-button:hover {
+  background-color: #F9FAFB;
+  scale: calc(1.1);
+  transition: all 0.3s ease-in-out;
+}
