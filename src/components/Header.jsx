@@ -5,13 +5,11 @@ import '../styles/Header.css'
 function Header () {
   return (
     <header>
-      <div className='header-content'>
-        <Logo />
+      <Logo />
 
-        <button className='theme-button'>
-          <Moon />
-        </button>
-      </div>
+      <button className='theme-button'>
+        <Moon />
+      </button>
     </header>
   )
 }
