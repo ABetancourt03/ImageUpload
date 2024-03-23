@@ -27,6 +27,6 @@ header {
 
 .theme-button:hover {
   background-color: #F9FAFB;
-  scale: calc(1.1);
-  transition: all 0.3s ease-in-out;
+  scale: calc(1.05);
+  transition: all 0.1s ease-in-out;
 }
