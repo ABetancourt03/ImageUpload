@@ -12,6 +12,12 @@ header {
   padding: 0 75px 0 75px;
 }
 
+header.dark {
+  background-color: #121826;
+  border-bottom-color: #212936;
+  color: #FFFFFF
+}
+
 .theme-button {
   background-color: #FFFFFF;
   border-color: #E5E7EB75;
@@ -24,4 +30,14 @@ header {
   background-color: #F9FAFB;
   scale: calc(1.05);
   transition: all 0.1s ease-in-out;
+}
+
+.theme-button.dark {
+  background-color: #4D5562;
+  border-color: #212936;
+}
+
+.theme-button.dark:hover {
+  background-color: #4D556290;
+  border-color: #212936;
 }
