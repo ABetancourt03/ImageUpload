@@ -1,1 +1,49 @@
+.dropzone-container {
+  background-color: #ffffff;
+}
 
+.dropzone-container.dark {
+  background-color: #212936;
+}
+
+.dropzone {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: #e5e7eb75;
+  border-style: dashed;
+  background-color: #ffffff;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+}
+
+.dropzone:focus {
+  border-color: #c2daf9;
+}
+
+.dropzone:focus {
+  border-color: #c2daf9;
+}
+
+.dropzone.dark {
+  background-color: #212936;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+}
+
+.dropzone-text.dark {
+  color: #f9fafbcc;
+}
+
+.filetypes {
+  color: #4d5562;
+}
+
+.filetypes.dark {
+  color: #f9fafb;
+}
