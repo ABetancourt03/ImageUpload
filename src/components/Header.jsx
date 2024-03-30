@@ -24,6 +24,10 @@ function Header () {
 
   useEffect(() => {
     const localTheme = localStorage.getItem('theme')
+    if (!localTheme) {
+      localStorage.setItem('theme', 'light')
+    }
+
     $body.classList.add(localTheme)
     setTheme(localTheme)
   }, [theme, $body])
